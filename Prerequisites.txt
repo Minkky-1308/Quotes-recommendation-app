@@ -1,0 +1,32 @@
+Prerequisites
+Technical Prerequisites
+
+Basic knowledge of Python
+
+Basic understanding of Natural Language Processing (NLP)
+
+Understanding of Chatbots and Intent Classification
+
+Knowledge of YAML file structure
+
+Basic command line usage
+
+ Software Requirements
+
+Python 3.8 – 3.10
+
+pip (Python package manager)
+
+Virtual Environment (recommended)
+
+Code Editor (VS Code recommended)
+
+ Framework & Libraries
+
+Rasa (for chatbot development)
+
+spaCy (for NLP pipeline)
+
+SQLite (optional, for storage)
+
+Flask (optional, for web deployment)
