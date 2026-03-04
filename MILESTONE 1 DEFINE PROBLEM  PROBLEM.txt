@@ -1,0 +1,38 @@
+MILESTONE 1: DEFINE PROBLEM / PROBLEM UNDERSTANDING
+
+Activity 1: Specify the Business Problem
+
+Activity 2: Business Requirements
+
+Activity 3: Literature Survey
+
+Activity 4: Social or Business Impact
+
+MILESTONE 2: ENVIRONMENT SETUP
+
+Activity 1: Install Rasa and Required Dependencies
+
+Activity 2: Setting Up the Rasa Project
+
+MILESTONE 3: DATA COLLECTION & MODEL BUILDING
+
+Activity 1: Data Collection – Creating User Queries (nlu.yml)
+
+Activity 2: Creating Bot Responses (domain.yml)
+
+Activity 3: Defining Interaction Between User and Chatbot (stories.yml)
+
+Activity 4: Model Training
+
+Activity 5: Model Storage and Reusability
+
+MILESTONE 4: TESTING & DEPLOYMENT
+
+Activity 1: Model Testing Using Rasa Shell
+
+Activity 2: Testing Using Test Stories
+
+Activity 3: Deployment Using Web Interface
+
+Activity 4: Validation of Deployed Chatbot
+

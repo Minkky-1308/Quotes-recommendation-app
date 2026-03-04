@@ -1,0 +1,96 @@
+Story 1: Specify the Business Problem
+
+In today's digital world, users seek:
+
+Motivational quotes
+
+Love quotes
+
+Success quotes
+
+Sad quotes
+
+Random inspiration
+
+However, users waste time searching manually.
+
+ Problem Statement
+
+Develop an NLP-based chatbot that:
+
+Understands user mood or request
+
+Classifies intent
+
+Recommends relevant quotes instantly
+
+ Story 2: Business Requirements
+Functional Requirements:
+
+Detect user intent (motivation, love, success, etc.)
+
+Recommend appropriate quotes
+
+Handle greetings and fallback queries
+
+Support interactive conversation
+
+Non-Functional Requirements:
+
+Fast response time
+
+Scalable
+
+Easy to update with new quotes
+
+High intent classification accuracy
+
+Story 3: Literature Survey
+Technologies Studied:
+
+Rule-based chatbots
+
+NLP-based chatbots
+
+Machine learning intent classification
+
+Deep learning conversational models
+
+ Framework Studied:
+
+Rasa – For intent classification & dialogue management
+
+Dialogflow – Google’s chatbot platform
+
+NLTK – Python NLP toolkit
+
+spaCy – Advanced NLP processing
+
+ Conclusion from Literature Review:
+
+Rule-based systems lack flexibility.
+
+NLP-based intent recognition provides better accuracy.
+
+Rasa allows full customization and offline development.
+
+ Story 4: Social or Business Impact
+ Social Impact:
+
+Helps users improve mood
+
+Provides instant positivity
+
+Mental well-being support
+
+ Business Impact:
+
+Can be integrated into:
+
+Websites
+
+Mental wellness apps
+
+Instagram bots
+
+Customer engagement platforms
