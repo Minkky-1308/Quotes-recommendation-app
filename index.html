@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quotes Recommendation App</title>
+    <style>
+        body { font-family: Arial; max-width: 800px; margin: 50px auto; padding: 20px; }
+        .quote { background: #f5f5f5; padding: 15px; margin: 10px 0; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>📚 Quotes Recommendation App</h1>
+    <input type="text" id="query" placeholder="Enter a topic or keyword...">
+    <button onclick="getRecommendations()">Get Recommendations</button>
+    <div id="results"></div>
+
+    <script>
+        async function getRecommendations() {
+            const query = document.getElementById('query').value;
+            const response = await fetch('/recommend', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({query: query})
+            });
+            const data = await response.json();
+            document.getElementById('results').innerHTML = data.map(q => 
+                `<div class="quote"><strong>${q.author}</strong>: ${q.text}</div>`
+            ).join('');
+        }
+    </script>
+</body>
+</html>

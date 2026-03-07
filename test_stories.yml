@@ -1,0 +1,15 @@
+version: "3.1"
+
+stories:
+
+- story: test greeting
+  steps:
+  - user: "hello"
+    intent: greet
+  - action: utter_greet
+
+- story: test motivation
+  steps:
+  - user: "motivate me"
+    intent: motivation
+  - action: utter_motivation

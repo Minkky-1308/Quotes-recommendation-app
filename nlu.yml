@@ -1,0 +1,51 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+    - hello there
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - catch you later
+
+- intent: motivation
+  examples: |
+    - motivate me
+    - give me motivation
+    - inspire me
+    - I need motivation
+    - motivational quote please
+    - tell me something inspiring
+
+- intent: success_quotes
+  examples: |
+    - give me success quotes
+    - quotes about success
+    - inspire me for success
+    - success motivation
+    - tell me a success quote
+
+- intent: sad
+  examples: |
+    - I feel sad
+    - I am depressed
+    - I feel low
+    - I am unhappy
+    - I am feeling bad today
+
+- intent: confidence
+  examples: |
+    - I need confidence
+    - give me confidence quotes
+    - how can I gain confidence
+    - confidence motivation

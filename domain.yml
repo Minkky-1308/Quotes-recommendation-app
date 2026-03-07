@@ -1,0 +1,39 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - request_motivational
+  - request_inspirational
+  - request_humorous
+  - request_love
+  - request_success
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I inspire you today?"
+  utter_goodbye:
+    - text: "Goodbye! Stay motivated!"
+  utter_motivational:
+    - text: "Believe you can and you're halfway there."
+  utter_inspirational:
+    - text: "The only way to do great work is to love what you do."
+  utter_humorous:
+    - text: "I told my wife she was drawing her eyebrows too high. She looked surprised."
+  utter_love:
+    - text: "Love is composed of a single soul inhabiting two bodies."
+  utter_success:
+    - text: "Success is not final, failure is not fatal."
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_motivational
+  - utter_inspirational
+  - utter_humorous
+  - utter_love
+  - utter_success
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
